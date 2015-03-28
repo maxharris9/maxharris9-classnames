@@ -13,5 +13,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use(['maxharris9:classnames', 'tinytest', 'test-helpers']);
-  api.addFiles('maxharris9-classnames-tests.js', 'client');
+  api.addFiles('maxharris9-classnames-tests.js', ['client', 'server']);
 });
